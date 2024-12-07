@@ -30,6 +30,7 @@ export const allPackages = [
   "es-iterator-helpers",
   "es-set-tostringtag",
   "es6-object-assign",
+  "es6-promise",
   "function-bind",
   "function.prototype.name",
   "get-symbol-description",

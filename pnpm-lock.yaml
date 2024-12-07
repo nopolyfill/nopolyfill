@@ -33,6 +33,7 @@ overrides:
   es-iterator-helpers: workspace:@nolyfill/es-iterator-helpers@*
   es-set-tostringtag: workspace:@nolyfill/es-set-tostringtag@*
   es6-object-assign: workspace:@nolyfill/es6-object-assign@*
+  es6-promise: workspace:@nolyfill/es6-promise@*
   function-bind: workspace:@nolyfill/function-bind@*
   function.prototype.name: workspace:@nolyfill/function.prototype.name@*
   get-symbol-description: workspace:@nolyfill/get-symbol-description@*
@@ -429,6 +430,12 @@ importers:
   packages/generated/es-set-tostringtag: {}
 
   packages/generated/es6-object-assign: {}
+
+  packages/generated/es6-promise:
+    dependencies:
+      '@nolyfill/shared':
+        specifier: workspace:*
+        version: link:../../tools/shared
 
   packages/generated/function.prototype.name:
     dependencies:

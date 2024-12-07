@@ -53,7 +53,7 @@ Print the help message.
 
 ## Development
 
-Add the definition in `packages/data/es-shim-like/src/` or `packages/data/single-file/src/` and `create.ts` , then `npm run codegen`. Notice that rarely used package will not be added, and some packages which are just sub-deps also won't be added.
+Add the definition in `packages/data/es-shim-like/src/` or `packages/data/single-file/src/` or `packages/manual` and `create.ts` , then `npm run codegen`. Notice that rarely used package will not be added, and some packages which are just sub-deps also won't be added.
 
 ## Contributions
 

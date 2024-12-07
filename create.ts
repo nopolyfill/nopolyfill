@@ -148,7 +148,8 @@ const manualPackagesList = [
   'es-iterator-helpers', // use rollup prebundle approach
   'assert', // use rollup prebundle approach
   'set-function-length', // two entries (index.js, env.js)
-  'is-core-module' // bundle
+  'is-core-module', // bundle
+  'es6-promise' // two entries (index.js, auto.js)
 ] as const;
 
 const nonNolyfillPackagesList = [
